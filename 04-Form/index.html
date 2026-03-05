@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <h2>Форма реєстрації</h2>
+    <form action="#" method="post" enctype="multipart/form-data" id="my_form" onsubmit="alert
+    (decodeURI(new URLSearchParams
+    (Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;">
+        <label>Повне ім'я</label>
+        <input type="text" name="name" required>
+        <br>
+        <label>Email</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Пароль</label>
+        <input type="password" name="password" required>
+        <br>
+        <label>Пароль ще раз</label>
+        <input type="password" name="password2" required>
+        <br>
+        <label>Стать</label>
+        <input type="radio" name="gender" value="male"> Чоловіча
+        <input type="radio" name="gender" value="female"> Жіноча
+        <br>
+        <label>Вік</label>
+        <input type="number" name="age" min="13" max="98">
+        <br>
+        <label>Курс</label>
+        <select name="course">
+            <option value="">-=Виберіть курс=-</option>
+            <option>Fron-End Developer</option>
+            <option>Beckend Developer</option>
+            <option>Data Analyst</option>
+        </select>
+        <br>
+        <label>Повна адреса</label>
+        <textarea name="address" rows="4" cols="40" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+        <br>
+        <input type="checkbox" required> Я погоджуюсь з обробкою персональних даних
+        <br>
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зфреєструватися</button>
+    </form>
+    
+</body>
+</html>
