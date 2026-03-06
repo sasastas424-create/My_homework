@@ -10,35 +10,35 @@
     <form action="#" method="post" enctype="multipart/form-data" id="my_form" onsubmit="alert
     (decodeURI(new URLSearchParams
     (Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;">
-        <label>Повне ім'я</label>
-        <input type="text" name="name" required>
+        <label for="name">Повне ім'я</label>
+        <input type="text" name="name" required id="name">
         <br>
-        <label>Email</label>
-        <input type="email" name="email" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required id="email">
         <br>
-        <label>Пароль</label>
-        <input type="password" name="password" required>
+        <label for="password">Пароль</label>
+        <input type="password" name="password" required id="password">
         <br>
-        <label>Пароль ще раз</label>
-        <input type="password" name="password2" required>
+        <label for="password2">Пароль ще раз</label>
+        <input type="password" name="password2" required id="password2">
         <br>
-        <label>Стать</label>
-        <input type="radio" name="gender" value="male" checked> Чоловіча
-        <input type="radio" name="gender" value="female"> Жіноча
+        <span>Стать</span>
+         <label ><input type="radio" name="gender" value="male" checked> Чоловіча</label>
+         <label><input type="radio" name="gender" value="female"> Жіноча</label>
         <br>
-        <label>Вік</label>
-        <input type="number" name="age" min="13" max="98">
+        <label for="age">Вік</label>
+        <input type="number" name="age" id="age" min="13" max="98">
         <br>
         <label>Курс</label>
-        <select name="course">
+        <select >
             <option value="">-=Виберіть курс=-</option>
             <option>Fron-End Developer</option>
             <option>Beckend Developer</option>
             <option>Data Analyst</option>
         </select>
         <br>
-        <label>Повна адреса</label>
-        <textarea name="address" rows="4" cols="40" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+        <label for="address">Повна адреса</label>
+        <textarea name="address"   id="address" rows="4" cols="40" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
         <br>
         <input type="checkbox" required> Я погоджуюсь з обробкою персональних даних
         <br>
