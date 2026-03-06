@@ -1,13 +1,17 @@
 body{
-    color: black;
+    background-color:  black;
 }
 
 h1{
-    color: aliceblue;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Contacts li{
+    color: white;
+}
+
+h2{
     color: white;
 }
 
