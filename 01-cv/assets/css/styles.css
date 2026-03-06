@@ -5,6 +5,12 @@ h1{
 
 p{
     color: gray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 1rem;
 }
+
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+
