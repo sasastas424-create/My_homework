@@ -14,3 +14,10 @@ a{
     text-decoration: none;
 }
 
+.skills li{
+    color: darkgray;
+}
+
+.experience{
+    color: darkgray;
+}
