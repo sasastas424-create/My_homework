@@ -35,3 +35,9 @@ a{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
