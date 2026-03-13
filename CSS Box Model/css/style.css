@@ -1,0 +1,112 @@
+body{
+    color: white;
+    background:#057ab4;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header h1{
+    width: 60%;
+    margin: 20px auto;
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.Cities{
+    font-size: 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.Cities li{
+    display:inline-block;
+    width: 25%;
+    height: 125px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid white;
+    vertical-align: top;
+    padding-top: 25px;
+}
+
+.Cities li.big{
+    width: 50%;
+}
+
+.Cities li.full{
+    width: 100%;
+}
+
+.city{
+    margin:0;
+    font-size: 22px;
+}
+
+.temp{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.Cities li:nth-child(1){
+    background: #3399cc;
+}
+
+.Cities li:nth-child(2){
+    background: #33cccc;
+}
+
+.Cities li:nth-child(3){
+    background: #996699;
+}
+
+.Cities li:nth-child(4){
+    background: #c24747;
+}
+
+.Cities li:nth-child(5){
+    background: #e2674a;
+}
+
+.Cities li:nth-child(6){
+    background: #ffcc66;
+}
+
+.Cities li:nth-child(7){
+    background: #99cc99;
+}
+
+.Cities li:nth-child(8){
+    background: #669999;
+}
+
+.Cities li:nth-child(9){
+    background: #cc6699;
+}
+
+.Cities li:nth-child(10){
+    background: #339966;
+}
+
+.Cities li:nth-child(11){
+    background: #666699;
+}
+
+footer{
+    width: 60%;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+footer p{
+    margin-top: 30px;
+}
+
+.Cities:hover li{
+    opacity: 0.7;
+}
+
+.Cities li:hover{
+    opacity: 1;
+}
