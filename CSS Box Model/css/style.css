@@ -16,6 +16,8 @@ header h1{
     font-size: 0;
     width: 1170px;
     margin: 0 auto;
+    background-color: #fff;
+    padding: 0;
 }
 
 .Cities li{
