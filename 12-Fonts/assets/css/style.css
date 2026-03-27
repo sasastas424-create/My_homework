@@ -1,0 +1,150 @@
+/* tourney-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tourney';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/tourney-v16-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* staatliches-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/staatliches-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* francois-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/francois-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* farro-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Farro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/farro-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* pt-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+ul {
+  list-style: none;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  margin-bottom: 41px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100%;
+  }
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: 1.2px;
+
+  a {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+span {
+  font-family: 'Tourney', sans-serif;
+  font-size: 22px;
+}
+
+.title {
+  font-family: 'Francois One', sans-serif;
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.chapter {
+  font-family: 'Farro', sans-serif;
+  font-size: 18px;
+ 
+}
+
+ {
+  font-family: 'Francois One', sans-serif;
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 28px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+code {
+  background: lightgray;
+  padding: 2px 6px;
+  font-family: monospace;
+}
+
+.section {
+ 
+  margin-bottom: 55px;
+}
+
+
+
